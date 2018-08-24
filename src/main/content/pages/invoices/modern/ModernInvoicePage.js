@@ -7,7 +7,7 @@ import {FuseAnimate} from '@fuse';
 
 const styles = theme => ({
     root       : {
-        background    : "url('/assets/images/backgrounds/dark-material-bg.jpg') no-repeat",
+        background    : "url('/assets/images/backgrounds/transparent-bg.png') no-repeat",
         backgroundSize: 'cover',
         flex          : '1 0 auto',
         '@media print': {
@@ -72,7 +72,7 @@ class ModernInvoicePage extends Component {
 
                                         <div className="flex items-center mb-80 print:mb-0">
 
-                                            <img className="w-160 print:w-60" src="assets/images/logos/fuse.svg" alt="logo"/>
+                                            <img className="w-160 print:w-60" src="assets/images/logos/logos.png" alt="logo"/>
 
                                             <div className={classNames(classes.divider, "mx-48 print:mx-16")}/>
 
@@ -301,7 +301,7 @@ class ModernInvoicePage extends Component {
                                     <div className="flex">
 
                                         <div className="flex-no-shrink mr-24">
-                                            <img className="w-32" src="assets/images/logos/fuse.svg" alt="logo"/>
+                                            <img className="w-32" src="assets/images/logos/logos.png" alt="logo"/>
                                         </div>
 
                                         <Typography className="font-medium mb-64" variant="caption" color="textSecondary">

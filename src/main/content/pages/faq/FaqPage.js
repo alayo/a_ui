@@ -14,7 +14,7 @@ const styles = theme => ({
     },
     header    : {
         height        : 360,
-        background    : "url('/assets/images/backgrounds/dark-material-bg.jpg') no-repeat",
+        background    : "url('/assets/images/backgrounds/transparent-bg.png') no-repeat",
         backgroundSize: 'cover',
         color         : '#fff'
     },

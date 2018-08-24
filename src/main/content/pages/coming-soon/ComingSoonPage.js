@@ -7,7 +7,7 @@ import {FuseCountdown, FuseAnimate} from '@fuse';
 
 const styles = theme => ({
     root: {
-        background    : "url('/assets/images/backgrounds/dark-material-bg.jpg') no-repeat",
+        background    : "url('/assets/images/backgrounds/transparent-bg.png') no-repeat",
         backgroundSize: 'cover'
     },
     card: {
@@ -49,7 +49,7 @@ class ComingSoonPage extends Component {
 
                             <CardContent className="flex flex-col items-center justify-center p-32 text-center">
 
-                                <img className="w-128 m-32" src="assets/images/logos/fuse.svg" alt="logo"/>
+                                <img className="w-128 m-32" src="assets/images/logos/logos.png" alt="logo"/>
 
                                 <Typography variant="subheading" className="mb-16">
                                     Hey! Thank you for checking out our app.

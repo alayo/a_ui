@@ -5,7 +5,7 @@ import classNames from 'classnames';
 
 const styles = theme => ({
     root: {
-        background    : "url('/assets/images/backgrounds/dark-material-bg.jpg') no-repeat",
+        background    : "url('/assets/images/backgrounds/transparent-bg.png') no-repeat",
         backgroundSize: 'cover'
     },
     card: {
@@ -30,7 +30,7 @@ class MaintenancePage extends Component {
 
                             <CardContent className="flex flex-col items-center justify-center text-center p-48">
 
-                                <img className="w-128 m-32" src="assets/images/logos/fuse.svg" alt="logo"/>
+                                <img className="w-128 m-32" src="assets/images/logos/logos.png" alt="logo"/>
 
                                 <Typography variant="subheading" className="mb-16">
                                     Closed for scheduled maintenance!

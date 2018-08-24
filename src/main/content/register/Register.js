@@ -12,7 +12,7 @@ import {FuseAnimate} from '@fuse';
 
 const styles = theme => ({
     root : {
-        background    : "url('/assets/images/backgrounds/dark-material-bg.jpg') no-repeat",
+        background    : "url('/assets/images/backgrounds/transparent-bg.png') no-repeat",
         backgroundSize: 'cover'
     },
     intro: {
@@ -78,12 +78,12 @@ class Register extends Component {
                     className={classNames(classes.intro, "flex flex-col flex-no-grow items-center p-16 text-center md:p-128 md:items-start md:flex-no-shrink md:flex-1 md:text-left")}>
 
                     <FuseAnimate animation="transition.expandIn">
-                        <img className="w-128 mb-32" src="assets/images/logos/fuse.svg" alt="logo"/>
+                        <img className="w-128 mb-32" src="assets/images/logos/logos.png" alt="logo"/>
                     </FuseAnimate>
 
                     <FuseAnimate animation="transition.slideUpIn" delay={300}>
                         <Typography variant="display2" color="inherit" className="font-light">
-                            Welcome to the FUSE!
+                            Welcome to the ALAYO!
                         </Typography>
                     </FuseAnimate>
 

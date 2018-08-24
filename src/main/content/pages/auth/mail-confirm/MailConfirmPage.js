@@ -7,7 +7,7 @@ import {FuseAnimate} from '@fuse';
 
 const styles = theme => ({
     root: {
-        background    : "url('/assets/images/backgrounds/dark-material-bg.jpg') no-repeat",
+        background    : "url('/assets/images/backgrounds/transparent-bg.png') no-repeat",
         backgroundSize: 'cover'
     },
     card: {

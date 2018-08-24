@@ -8,6 +8,7 @@ export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
 
 export function submitLogin({username, password})
 {
+    console.log(username, password)
     const request = axios.get('/api/auth', {
         data: {
             username,
@@ -18,6 +19,7 @@ export function submitLogin({username, password})
         request.then((response) => {
             if ( !response.data.error )
             {
+                localStorage.setItem('id_token', response.id)
                 dispatch(setUserData(response.data));
                 return dispatch({
                     type: LOGIN_SUCCESS
